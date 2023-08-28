@@ -1,0 +1,28 @@
+.createModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background: var(--navbg);
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px 20px 30px;
+    font-family: var(--font);
+    font-weight: 100;
+}
+
+.createRoom {
+    background: var(--greenBtn);
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    cursor: pointer;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+}

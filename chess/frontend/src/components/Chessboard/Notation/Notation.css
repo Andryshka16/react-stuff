@@ -1,0 +1,27 @@
+.notation {
+    font-size: 25px;
+    font-weight: 560;
+    font-family: Calibri, serif;
+    color: white;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.digits,
+.letters {
+    z-index: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.digits > p {
+    margin: 0 0 49px
+}
+
+.letters > p {
+    margin: 0;
+}
+
+.letters {
+    letter-spacing: 31.2px;
+}

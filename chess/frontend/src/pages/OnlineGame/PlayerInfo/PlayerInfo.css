@@ -1,0 +1,27 @@
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #000230;
+    font-family: var(--font);
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.mini-profile {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.mini-profile img {
+    width: 30px;
+    height: 30px;
+}
+
+.mini-profile h2 {
+    margin-left: 10px;
+    font-size: 20px;
+}

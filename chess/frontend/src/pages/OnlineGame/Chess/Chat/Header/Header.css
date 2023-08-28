@@ -1,0 +1,10 @@
+.chat .header {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-family: var(--font);
+}

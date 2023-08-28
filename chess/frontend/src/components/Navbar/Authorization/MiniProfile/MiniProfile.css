@@ -1,0 +1,34 @@
+.authorized-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+
+.logout-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    filter: invert(1) brightness(1);
+}
+
+.profile-preview {
+    font-family: var(--font);    
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    width: fit-content;
+    user-select: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.authorized-profile .avatar {
+    height: 45px;
+    width: 45px;
+}
+
+.profile-preview .name {
+    font-family: var(--font);
+    margin-left: 20px;
+}

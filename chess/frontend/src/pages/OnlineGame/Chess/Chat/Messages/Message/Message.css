@@ -1,0 +1,54 @@
+.message-alert {
+    background: #ff00007e;
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    transition: 200ms;
+}
+
+.message {
+    font-size: 18px;
+    margin: 10px 15px;
+    padding: 8px 16px;
+    max-width: 70%;
+    width: fit-content;
+    background: var(--navbg);
+    border-radius: 12px;
+    transition: 200ms;
+}
+
+.native {
+    margin-left: auto;
+}
+
+.foreign {
+    background: #797979;
+}
+
+.message-content {
+    font-family: var(--font);
+    font-weight: 800;
+    margin: 0;
+}
+
+.msg-trn-enter {
+    opacity: 0;
+    translate: 20%;
+}
+
+.msg-trn-enter-active {
+    opacity: 1;
+    translate: 0;
+}
+
+.msg-trn-exit {
+    opacity: 1;
+    translate: 0;
+}
+
+.msg-trn-exit-active {
+    opacity: 0;
+    translate: 20;
+}

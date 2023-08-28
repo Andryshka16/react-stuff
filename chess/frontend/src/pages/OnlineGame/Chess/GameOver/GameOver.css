@@ -1,0 +1,46 @@
+.gameover-shadow {
+    width: 640px;
+    height: 640px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.gameover-shadow h1 {
+    font-family: var(--font);
+    font-size: 70px;
+    margin: 0;
+}
+
+.gameover-shadow > * {
+    margin: 40px;
+}
+
+.play-again {
+    width: 400px;
+    height: 100px;
+    background: rgb(105, 105, 105);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.leave {
+    background: #da3838;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 12px 40px;
+    font-size: 30px;
+}

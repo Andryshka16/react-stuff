@@ -1,0 +1,15 @@
+.options {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    translate: -50%;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-family: var(--font);
+    margin: 15px;
+    cursor: pointer;
+}

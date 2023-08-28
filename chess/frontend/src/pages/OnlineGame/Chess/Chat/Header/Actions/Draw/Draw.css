@@ -1,0 +1,37 @@
+.handshake {
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+.handshake:hover {
+    scale: 1.1;
+}
+
+.handshake img {
+    width: 30px;
+}
+
+.decline-draw {
+    position: absolute;
+    translate: -115%;
+    background: #ff0000;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 200ms;
+}
+
+.hidden {
+    opacity: 0;
+    translate: -50%;
+}
+
+.decline-draw:hover {
+    scale: 1.1;
+}

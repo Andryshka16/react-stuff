@@ -1,0 +1,8 @@
+.chat {
+    position: relative;
+    width: 400px;
+    height: 640px;
+    margin-left: 20px;
+    background: #000230;
+    border-radius: 5px;
+}

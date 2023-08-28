@@ -1,0 +1,15 @@
+.login-form {
+    margin-top: 20px;
+    width: 500px;
+}
+.login-btn {
+    background: var(--greenBtn);
+    color: white;
+    border: none;
+    margin: 16px;
+    height: 40px;
+    width: 130px;
+    font-family: var(--font);
+    font-size: 22px;
+    font-weight: 700;
+}

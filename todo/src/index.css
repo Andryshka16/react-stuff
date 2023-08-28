@@ -1,0 +1,180 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: left;
+	background: rgba(0, 91, 230, 0.67);
+	color: white;
+	padding: 0 20px;
+}
+
+.navlink {
+	color: grey;
+	transition: 200ms;
+	margin-left: 40px;
+}
+
+.navlink:hover {
+	transform: scale(1.1);
+}
+
+.navComponent {
+	text-decoration: none;
+}
+
+form {
+	width: 80%;
+	display: flex;
+	margin: 20px auto auto;
+}
+
+.notesInput {
+	width: 100%;
+	font-size: 25px;
+	line-height: 40px;
+	border-radius: 5px;
+	outline: none;
+	border: 2px solid rgba(128, 128, 128, 0.64);
+}
+
+.notesInput:focus {
+	outline: none;
+}
+
+.submitNote {
+	width: 130px;
+	height: 42px;
+	font-size: 25px;
+	font-family: inherit, serif;
+	color: white;
+	background: rgba(0, 130, 230, 0.67);
+	border-radius: 5px;
+	margin: auto auto auto 20px;
+	transition: 200ms;
+}
+
+.submitNote:hover {
+	opacity: 0.8;
+}
+
+.notesList {
+	border-radius: 10px;
+	width: calc(80% - 60px);
+	margin: 20px auto auto;
+	border: 2px solid rosybrown;
+	padding: 0 30px;
+	overflow: auto;
+	background: rgba(72, 142, 255, 0.22);
+}
+
+.note {
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+	padding: 0 0 10px;
+	border-bottom: 1px solid rosybrown;
+	justify-content: space-between;
+}
+
+.notesText {
+	font-size: 30px;
+}
+
+.notesDate {
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+.titleAndDate {
+	display: flex;
+	align-items: center;
+}
+
+.noteBtn {
+	color: white;
+	border: none;
+	height: 35px;
+	width: 35px;
+	font-size: 25px;
+	cursor: pointer;
+	margin: auto 9px;
+	transition: 200ms;
+	border-radius: 5px;
+}
+
+.noteBtn:hover {
+	transform: scale(1.1);
+}
+
+.completeNote {
+	background: #00f911;
+}
+
+.removeNote {
+	background: #ff0000;
+}
+
+.alert {
+	width: calc(80% - 50px);
+	background: #a0ff95;
+	margin: 15px auto;
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+	border-radius: 15px;
+	padding: 15px 25px;
+}
+
+.removeAlert {
+	background: rgba(255, 54, 54, 0.65);
+	border: none;
+	font-size: 30px;
+	width: 35px;
+	height: 35px;
+	transition: 200ms;
+	border-radius: 10px;
+}
+
+.removeAlert:hover {
+	transform: scale(1.1);
+}
+
+.alert-entering {
+	animation: alert-animation 0.5s ease-out forwards;
+}
+
+.alert-exiting {
+	animation: alert-animation 0.35s ease-in reverse;
+}
+
+.note-animation-enter-active {
+	animation: note-animation 1s forwards;
+}
+
+.note-animation-exit-active {
+	animation: note-animation 0.7s reverse;
+}
+
+@keyframes note-animation {
+	0% {
+		opacity: 0;
+		transform: translateX(-300px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes alert-animation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

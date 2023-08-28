@@ -1,0 +1,56 @@
+.joinModal {
+    background: var(--navbg);
+    height: 210px;
+    width: 350px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: absolute;
+    font-family: var(--font);
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    translate: -50% -50%;
+}
+
+.joinModal > * {
+    display: block;
+    margin: 20px auto;
+}
+
+.joinModal > label {
+    text-align: center;
+    font-size: 33px;
+}
+
+.joinModal-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 330px;
+}
+
+.joinModal > input {
+    width: 300px;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.play-btn,
+.cancel-btn {
+    color: white;
+    height: 45px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+}
+
+.play-btn {
+    background: var(--greenBtn);
+}
+
+.cancel-btn {
+    background: rgb(255, 0, 0);
+}

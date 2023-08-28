@@ -1,0 +1,9 @@
+.timer {
+    background: #00a917;
+    margin-top: 45px;
+    font-family: var(--font);
+    font-size: 25px;
+    height: 40px;
+    font-weight: 900;
+    text-align: center;
+}

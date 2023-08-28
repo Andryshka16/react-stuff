@@ -1,0 +1,6 @@
+export { default as Notation } from './Notation/Notation'
+export { default as Pieces } from './Pieces/Pieces'
+export { default as Cells } from './Cells/Cells'
+export { default as Indicators } from './Indicators/Indicators'
+export { default as Promotion } from './Pawn promotion/Promotion'
+export { default as GameOver } from '../../pages/OnlineGame/Chess/GameOver/GameOver'

@@ -1,0 +1,36 @@
+.profile {
+    font-family: var(--font);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    margin: 50px auto;
+    background: var(--navbg);
+    border-radius: 25px;
+    padding: 30px 50px;
+}
+
+.profile > * {
+    /* user-select: none; */
+    -webkit-user-drag: none;
+}
+
+.profile .avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.profile .name {
+    font-size: 25px;
+    margin: 0;
+}
+
+.profile .email {
+    font-size: 20px;
+    margin: 5px;
+}
+.profile .date {
+    margin: 5px 10px;
+}

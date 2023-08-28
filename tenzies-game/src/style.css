@@ -1,0 +1,63 @@
+
+body {
+    font-family: Calibri, serif;
+    color: black;
+    background: rgba(35, 44, 70, 0.92);
+    font-size: 25px;
+}
+
+
+#app {
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: auto;
+    text-align: center;
+    background: white;
+}
+
+
+
+h1 {
+    margin: 0;
+}
+
+/*h1 {*/
+/*    margin: 0;*/
+/*}*/
+
+#roll {
+    width: 80px;
+    height: 35px;
+    margin: 10px 0 0;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    background: rgba(52, 0, 79, 0.95);
+    border: none;
+    border-radius: 5px;
+}
+
+#diceContainer {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.dice {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 5px;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    box-shadow: 2px 4px rgba(128, 128, 128, 0.56);
+    cursor: pointer;
+}

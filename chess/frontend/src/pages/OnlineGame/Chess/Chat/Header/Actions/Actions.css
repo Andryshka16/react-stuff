@@ -1,0 +1,9 @@
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actions .white {
+    filter: brightness(0) invert(1);
+}
